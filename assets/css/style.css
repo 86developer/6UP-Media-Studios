@@ -183,7 +183,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 65px;
+  max-height: 60px;
 }
 
 .scrolled-offset {
@@ -223,6 +223,7 @@ h6 {
   justify-content: space-between;
   padding: 25px 15px 24px 15px;
   font-size: 14px;
+  font-weight: 300;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
@@ -577,26 +578,45 @@ section {
   background-repeat: no-repeat;
   position: relative;
 }
+#filmstudios .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height: 70vh; 
+}
+#filmstudios h1 {
+  font-size: 80px;
+  letter-spacing: 5px;
+  color: #ccc;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.8;
+}
+#filmstudios p {
+  letter-spacing: 3px;
+  color: #ccc;
+}
+/*
 #filmstudios {
   width: 100%;
   height: calc(100vh - 110px);
   position: relative;
-  overflow: hidden; /* Para que el video no se desborde */
+  overflow: hidden; 
 }
+*/
 
-
-.container #filmstudios {
+/*.container #filmstudios {
   max-width: none;
   padding-right: 0px;
   padding-left: 0px;
-  
-}
+}*/
 
-#video {
+/*#video {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Para que el video cubra todo el contenedor */
-}
+  object-fit: cover;
+}*/
 
 .about .content h3 {
   font-weight: 600;
