@@ -587,14 +587,16 @@ section {
 }
 #filmstudios h1 {
   font-size: 80px;
-  letter-spacing: 5px;
-  color: #ccc;
-  font-weight: bold;
+  letter-spacing: 15px;
+  color: white;
+  font-weight: bolder;
   text-transform: uppercase;
   line-height: 0.8;
+  
 }
 #filmstudios p {
   letter-spacing: 3px;
+  line-height: 0.5;
   color: #ccc;
 }
 /*
