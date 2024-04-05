@@ -578,33 +578,109 @@ section {
   background-repeat: no-repeat;
   position: relative;
 }
-#filmstudios .container {
+#facilities {
+  width: 100%;
+  height: calc(100vh - 110px);
+  background: url("../img/facilities.jpg") top center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#incentives {
+  width: 100%;
+  height: calc(100vh - 110px);
+  background: url("../img/incentives.jpg") top center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#location {
+  width: 100%;
+  height: calc(100vh - 110px);
+  background: url("../img/location.jpg") top center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#filmstudios,
+#facilities,
+#location,
+#incentives
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  height: 70vh; 
+  height: 80vh; 
 }
-#filmstudios h1 {
+#filmstudios
+h1 {
   font-size: 80px;
   letter-spacing: 15px;
   color: white;
   font-weight: bolder;
   text-transform: uppercase;
   line-height: 0.8;
-  
+}
+#facilities
+h1 {
+  font-size: 80px;
+  letter-spacing: 15px;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  line-height: 0.8;
+}
+#location
+h1 {
+  font-size: 80px;
+  letter-spacing: 15px;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  line-height: 0.8;
+}
+#incentives
+h1 {
+  font-size: 80px;
+  letter-spacing: 15px;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  line-height: 0.8;
 }
 #filmstudios p {
   letter-spacing: 3px;
-  line-height: 0.5;
+  line-height: 1.5;
+  color: white;
+}
+#incentives p {
+  letter-spacing: 3px;
+  line-height: 1.5;
+  color: white;
+}
+#facilities p {
+  letter-spacing: 3px;
+  line-height: 1.5;
+  color: white;
+}
+#location p {
+  letter-spacing: 3px;
+  line-height: 1.5;
   color: white;
 }
 
 /* Media queries para dispositivos móviles */
 @media only screen and (max-width: 768px) {
   #filmstudios {
-    height: auto;
-    padding: 50px 0;
+    width: 100%;
+    height: 600px;
+    padding: 100px 0;
+    background-position: 60% center;
   }
 
   #filmstudios .container {
@@ -623,7 +699,7 @@ section {
   #filmstudios p {
     font-size: 16px;
     letter-spacing: 2px;
-    line-height: 1;
+    line-height: 1.5;
     text-align: left;
     padding: 3px;
 
