@@ -1,8 +1,5 @@
 <?php
 
-
-
-
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -18,7 +15,7 @@ if(isset($_POST["send"])){
   $mail->SMTPAuth = true;
   $mail->Username = 'duckdev86@gmail.com';
   $mail->Password = 'tutu jpgv wmoh nzln';
-  $mail->SMTPSecure = 'ssl';
+  $mail->SMTPSecure = 'tls';
   $mail->Port = 465;
 
   $mail->setFrom('duckdev86@gmail.com');

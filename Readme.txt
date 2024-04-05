@@ -17,3 +17,10 @@ Correr apache servidor
 //? shift+alt+A comenta lineas
 
 //? Fn + Ctrl + PgUp o PgDn, cambia hoja 
+
+
+
+barra nav negra siempre
+margenes mobile horizontales
+
+form error nuevo
