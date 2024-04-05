@@ -702,7 +702,45 @@ h1 {
     line-height: 1.5;
     text-align: left;
     padding: 3px;
-
+  }
+  #facilities h1 {
+    font-size: 55px;
+    letter-spacing: 8px;
+    line-height: 1;
+    text-align: left;
+  }
+  #facilities p {
+    font-size: 13px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-align: left;
+    padding: 3px;
+  }
+  #incentives h1 {
+    font-size: 50px;
+    letter-spacing: 8px;
+    line-height: 1;
+    text-align: left;
+  }
+  #incentives p {
+    font-size: 13px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-align: left;
+    padding: 3px;
+  }
+  #location h1 {
+    font-size: 60px;
+    letter-spacing: 8px;
+    line-height: 1;
+    text-align: left;
+  }
+  #location p {
+    font-size: 13px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-align: left;
+    padding: 3px;
   }
 }
 
