@@ -76,9 +76,10 @@
               <li><a href="location.html">Location</a></li>
             </ul>
           </li>
-
+          <li><a class="nav-link scrollto" href="#producctions">Productions</a></li>
           <li><a class="nav-link scrollto" href="#dubbing">Dubbing</a></li>
           <li><a class="nav-link scrollto" href="#news">News</a></li>
+          <li><a class="nav-link scrollto" href="#ip">IP</a></li>
           <!--<li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>-->
           <li><a class="nav-link scrollto" href="#aboutus">About Us</a></li>
 
@@ -138,20 +139,21 @@
         </div>-->
       </div>
       <script>
+        
         // Cargar el video de forma asíncrona
-        document.addEventListener('DOMContentLoaded', function() {
-          var video = document.getElementById('video');
-          var source = document.createElement('source');
+        //document.addEventListener('DOMContentLoaded', function() {
+        //var video = document.getElementById('video');
+        //var source = document.createElement('source');
 
         // Especifica la ruta al video
-        source.setAttribute('src', 'https://drive.google.com/file/d/1FeT7k25TIVYn2tMwC_-5dZq-UN80HiHA/view?usp=sharing');
-        source.setAttribute('type', 'video/mp4');
+        //source.setAttribute('src', 'https://drive.google.com/file/d/1FeT7k25TIVYn2tMwC_-5dZq-UN80HiHA/view?usp=sharing');
+        //source.setAttribute('type', 'video/mp4');
         // Agrega más sources si deseas soportar otros formatos de video
 
         // Agrega la fuente al video y comienza la carga
-        video.appendChild(source);
-        video.load();
-        });
+        //video.appendChild(source);
+        //video.load();
+        //});
 
       </script>
     </section><!-- End About Section -->
@@ -600,7 +602,7 @@
           </div>
 
           <div class="col-lg-6">
-            <form id="contact-form" action="send_email.php" method="post" role="form" class="php-email-form">
+            <form id="contact-form" action="/forms/send_email.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
